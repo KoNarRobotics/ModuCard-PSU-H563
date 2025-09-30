@@ -1,0 +1,167 @@
+(footprint "16th DC-DC converter"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -14.8 -12.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66e19c2d-48b3-4e59-94c6-3bfb81b4ce89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "16th DC-DC converter"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d062b25-31b6-4e4e-8c34-d5148b9f8f6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89d7f8f8-767a-4015-b3ba-4660016f5f17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Sixteenth-brick DOSA-Compatible"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a24b588-9726-4ba2-88a2-993bc4b06d05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -16.75 -11.7)
+		(end 16.75 11.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e49a9658-6f62-4391-a961-76210773b04a")
+	)
+	(fp_circle
+		(center -13.97 -7.62)
+		(end -11.58 -7.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fb1d5e8e-9daa-4aae-b8ed-ae18aad74348")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "275315c2-34e2-4ffa-9f67-3b3041b1330d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -13.97 -7.62)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6fb1ce42-04cb-4791-8475-d652ef4bd1e3")
+	)
+	(pad "2" thru_hole circle
+		(at -13.97 0)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e31b484-eb49-4f3e-989a-4ae3a75fc6dd")
+	)
+	(pad "3" thru_hole circle
+		(at -13.97 7.62)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c6bcf62-9c0f-4564-aa7a-d84d0f0cf1b7")
+	)
+	(pad "4" thru_hole circle
+		(at 13.97 7.62)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae7edec8-cb54-4cab-93ac-147494a25810")
+	)
+	(pad "5" thru_hole circle
+		(at 13.97 3.81)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94409669-c754-469d-9f8c-eae0a361564a")
+	)
+	(pad "6" thru_hole circle
+		(at 13.97 0)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b6fbe04-8e72-41cf-a57a-69cb3bb21eee")
+	)
+	(pad "7" thru_hole circle
+		(at 13.97 -3.81)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2c5c4b6-bef2-4599-bd59-3fa6bee76276")
+	)
+	(pad "8" thru_hole circle
+		(at 13.97 -7.62)
+		(size 2.78 2.78)
+		(drill 1.78)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "579aef55-6b7a-4c50-9879-c6baa5e019e8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/kicad-3d-models/1-16_brick.stp"
+		(offset
+			(xyz -16.5 26.9 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

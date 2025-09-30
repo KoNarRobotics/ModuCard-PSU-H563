@@ -1,0 +1,159 @@
+(footprint "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "1d035c5d-0599-45dc-915e-681901585209")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BUZ-TH_BD12.0-P7.60-D0.6-FD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "082e3a50-361a-4557-98a7-d650d79f4de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9a93abd-da70-4ce3-865f-6b0ed5cd857e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "add73b7c-a349-4578-947a-121719adc9fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d09b22a3-4884-4bcd-b70a-f9cfadd10e4e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3d4623ca-4207-46eb-8834-134ccc4d03d3")
+	)
+	(fp_circle
+		(center -6 6)
+		(end -5.97 6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ce4afdb8-2f83-4ac8-a5bd-610439172d08")
+	)
+	(fp_circle
+		(center -3.8 0)
+		(end -3.65 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "43f36883-2a6c-4048-a1ab-172f3128b975")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 3.95 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "527ddcb0-417b-46c3-b822-55d308f52e23")
+	)
+	(fp_text user "+"
+		(at -4.44 -1.77 0)
+		(layer "F.SilkS")
+		(uuid "c91338f0-c7e7-4971-80d0-1d7771b8a0e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5dea5bf7-ac56-4539-a6a4-a6e656daea66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.8 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8f90bb6-607a-4f0b-8cf0-55ddbd26965a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de9772f1-8f41-42c4-aa64-27841a78f06e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/kicad-3d-models/Buzzer.3dshapes/BUZ-TH_D12.0-H9.5-P7.60.step"
+		(offset
+			(xyz -0.02 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)
